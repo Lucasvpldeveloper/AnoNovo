@@ -1,0 +1,45 @@
+
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 140px;
+    nav{
+        width: 30%;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 32px;
+        }
+    }
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    section{
+        img{
+            width: 500px;
+        }
+    }
+    section{
+        text-align: end;
+        width: 500px;
+        color: #3E3970;
+        h1{
+            font-weight: lighter;
+        }
+        h2{
+            font-size: 2em;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+}
